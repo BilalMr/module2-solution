@@ -1,0 +1,20 @@
+header{
+    margin-bottom: 40px;
+}
+.main-content{
+    background: #999;
+    padding: 0 20px;
+}
+@media (max-width: 767px){
+    #collapsable-nav{
+        background-color: #666;
+        color: #f4f4f4;
+    }
+    #nav-list a{
+      color: #f4f4f4;
+    }
+    .main-content{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
